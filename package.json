@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"compromise": "^14.11.2"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "rollup -c rollup.config.mjs"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.23.9",
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"rollup": "^4.10.0"
+	}
+}
